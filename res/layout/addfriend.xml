@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+  android:background="#FFFFFF">
+    <LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="20dip"
+  >
+  <EditText 
+  android:width="150dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:singleLine="true"  
+  android:hint="Friend Name"
+  android:id="@+id/frndname"
+  />
+  </LinearLayout>
+  <LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="10px"
+ android:layout_margin="20dip">
+  <EditText 
+  android:width="150dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:singleLine="true"    
+  android:hint="Contact Number"
+  android:id="@+id/phno"
+  android:phoneNumber="true"/>
+  </LinearLayout>  
+  <LinearLayout android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10px"
+  			  android:gravity="center"
+   >
+  <Button 
+  		  android:id="@+id/add"
+  		  android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/okk"/>
+  <Button 
+  		  android:id="@+id/cancel"
+  		  android:layout_width="wrap_content"
+  		  android:layout_marginLeft="5dip"
+          android:layout_height="wrap_content"
+          android:background="@drawable/cancell"/>  
+ </LinearLayout>     
+</LinearLayout>

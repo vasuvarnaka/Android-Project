@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    
+    android:background="#FFFFFF"
+   >
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+         android:layout_weight="1"
+        android:layout_height="wrap_content">
+        
+         <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp">
+        <TextView
+            android:id="@+id/frndnamecrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+        />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frndnamecrdtxt"
+            android:singleLine="true"
+             android:textColor="#125F82"
+            
+        />
+        
+        
+            </LinearLayout>
+            
+             <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:id="@+id/amtcrd"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+            android:id="@+id/amtcrdtxt"
+            android:singleLine="true"
+            android:textColor="#125F82"            
+        />    
+    </LinearLayout>
+        </LinearLayout>
+  </LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+  android:background="#FFFFFF">
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ 
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+  android:background="#FFFFFF">
+ 
+    <LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="20dip"
+  >
+  <EditText 
+  android:width="150dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:singleLine="true"  
+  android:hint="Username"
+  android:id="@+id/username" />
+  </LinearLayout>
+  <LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="10px"
+ android:layout_margin="20dip">
+  <EditText 
+  android:width="150dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:singleLine="true"    
+  android:hint="Password"
+  android:id="@+id/pwd"
+  android:password="true"/>
+  </LinearLayout>
+   <LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="10px"
+  android:layout_margin="20dip"
+  >
+  <EditText 
+  android:width="150dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:singleLine="true"     
+  android:hint="Confirm Password"
+  android:id="@+id/confirmpwd"
+  android:password="true"/>  
+  </LinearLayout> 
+  <LinearLayout android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10px"
+  			 android:gravity="center"
+   >
+  <Button 
+  		  android:id="@+id/signup"
+  		  android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/okk"/> 
+  <Button 
+  		  android:id="@+id/cancell"
+  		  android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dip"
+          android:background="@drawable/cancell"/>
+ </LinearLayout>     
+
+</LinearLayout>
+ </ScrollView>
+ </LinearLayout>

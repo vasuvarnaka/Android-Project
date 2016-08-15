@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center|center_vertical|center_horizontal"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#FFFFFF"    
+    
+    >
+    <LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+   android:gravity="center"
+>
+   <Spinner android:id="@+id/spin_billingdetails" 
+   android:layout_width="180dip"
+   android:layout_height="wrap_content"
+   android:layout_gravity="center"
+   />
+</LinearLayout>
+<LinearLayout android:orientation="horizontal"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+               android:gravity="center">  
+ <EditText
+ 	android:width="150dip"		
+ 	android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+   android:layout_gravity="center"
+    android:singleLine="true"
+    android:hint="From Date"
+    android:id="@+id/fromdate"
+    />   
+  </LinearLayout>
+ <LinearLayout android:orientation="horizontal"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center">  
+ <EditText
+ 	android:width="150dip"		
+ 	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"     
+    android:singleLine="true"
+    android:layout_gravity="center"
+    android:hint="To Date"
+    android:id="@+id/todate"/>   
+</LinearLayout>  
+<LinearLayout android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center">
+  <Button 
+  		  android:id="@+id/submit"
+  		  android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/okk"
+          /> 
+  <Button android:id="@+id/cancelbtn"
+  		  android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dip"
+          android:background="@drawable/cancell"/>
+ </LinearLayout>
+</LinearLayout>

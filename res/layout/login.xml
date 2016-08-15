@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+  android:background="#FFFFFF"
+  >
+   <LinearLayout
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  >
+  <EditText
+  android:id="@+id/uid"
+  android:width="150dip"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:singleLine="true"  
+  android:hint="Username"
+  />
+  <EditText
+  android:id="@+id/password" 
+  android:width="150dip"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:singleLine="true"    
+  android:hint="Password"
+  android:password="true"/>
+  </LinearLayout>  
+  <LinearLayout android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10px"
+  			  android:gravity="center"
+   >
+  <Button 
+  		  android:id="@+id/signin"
+  		  android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/loginn"/>
+   <Button 
+  		  android:id="@+id/signupp"
+  		  android:layout_width="wrap_content"
+  		  android:layout_marginLeft="5dip"
+          android:layout_height="wrap_content"
+          android:background="@drawable/signupp"/>             
+ </LinearLayout>  
+
+</LinearLayout>

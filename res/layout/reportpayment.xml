@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#FFFFFF"
+    >
+   <LinearLayout android:orientation="horizontal"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+              android:layout_margin="10dip">  
+  <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Person making payment    : "
+    android:textStyle="bold"
+    android:textColor="#000000"
+    />
+  <TextView
+  	android:id="@+id/pmp"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    />   
+  </LinearLayout>  
+
+<LinearLayout android:orientation="horizontal"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+              android:layout_margin="10dip">  
+ <TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Person receiving payment : "
+    android:singleLine="true"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    />
+ <TextView  
+ 	android:id="@+id/prp" 	
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"    
+    android:textColor="#000000"
+    android:textStyle="bold"
+    />   
+</LinearLayout>  
+  <LinearLayout android:orientation="horizontal"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+              android:layout_margin="10dip">  
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:text="Description"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    />
+ <EditText
+ 	android:width="150dip"		
+ 	android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="22dip"
+    android:singleLine="true"
+    android:id="@+id/desc"/>   
+  </LinearLayout>
+
+ <LinearLayout android:orientation="horizontal"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dip">  
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Total Amount"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    />
+ <EditText
+ 	android:width="150dip"		
+ 	android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10dip"
+    android:singleLine="true"
+    android:id="@+id/totamt"
+     android:numeric="integer"/>   
+</LinearLayout>  
+
+<LinearLayout android:orientation="horizontal"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dip">  
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Date"
+    android:textStyle="bold"
+    android:layout_marginLeft="30dip"
+    android:textColor="#000000"
+    />
+  <EditText
+ 	android:width="150dip"		
+ 	android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="35dip"
+    android:singleLine="true"
+    android:id="@+id/dt"/>    
+</LinearLayout>  
+<LinearLayout android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center">
+  <Button 
+  		  android:id="@+id/save"
+  		  android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/okk"/> 
+  <Button android:id="@+id/can"
+  		  android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/cancell"
+          android:layout_marginLeft="5dip"/>
+ </LinearLayout>    
+</LinearLayout>

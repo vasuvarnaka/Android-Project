@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"   
+    >
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     
+    >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ <LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip" 
+    android:gravity="left"   
+  
+    >
+    <TextView 
+    android:text="Need to Collect"
+    android:textColor="#000000"
+    android:textSize="18dip"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dip"
+    /> 
+     <TextView    
+    android:textColor="#000000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:layout_gravity="left"
+    android:id="@+id/debittxt"    
+     android:layout_marginLeft="20dip"
+    />
+    </LinearLayout>
+ 
+     <LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+     android:layout_marginTop="10dip"
+     android:layout_marginRight="5dip"
+      
+    >
+    <TextView 
+ android:text="Need to Pay" 
+   android:textSize="18dip"
+    android:textStyle="bold"
+ android:textColor="#000000" 
+ android:layout_width="wrap_content" 
+  android:layout_marginRight="10dip"
+ android:layout_height="wrap_content"></TextView>
+   
+    <TextView     
+    android:textColor="#000000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dip"
+    android:id="@+id/credittxt"    
+    />
+    </LinearLayout>
+    </LinearLayout>
+   <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"          
+    >
+    <ImageView
+    android:src="@drawable/reportpayment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:layout_marginLeft="30dip"
+    android:id="@+id/reportpayment"
+    />
+    <ImageView 
+    android:src="@drawable/reportbills"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:layout_marginLeft="30dip"
+    android:id="@+id/reportbill"
+    />
+    </LinearLayout>
+  
+     <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dip"   
+    >
+    <ImageView 
+    android:src="@drawable/debitors"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dip"
+    android:id="@+id/debitors"
+    />
+    <ImageView 
+    android:src="@drawable/creditors"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dip"
+    android:id="@+id/creditors"
+    />
+    </LinearLayout>  
+     <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"   
+    >
+    <ImageView 
+    android:src="@drawable/history"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dip"
+    android:id="@+id/paymentdetails"
+    />
+    <ImageView 
+    android:src="@drawable/billinghistory"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dip"
+    android:id="@+id/billingdetails"
+    />
+    </LinearLayout> 
+      <ImageView 
+    android:src="@drawable/addfriend"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/addfriend"    
+    />   
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
